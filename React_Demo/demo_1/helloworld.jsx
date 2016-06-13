@@ -1,4 +1,4 @@
-/// <reference path="build/React.js" />
+/// <reference path="../build/React.js" />
 var HelloMessage=React.createClass({
     render:function() {
         return <div>SB {this.props.name}</div>;
