@@ -2,7 +2,7 @@ var MessageBox=React.createClass({
     getInitialState:function(){
       return {
         count:0,
-      };
+      };    
     },
     addCount:function(){
         this.setState({count:++this.state.count});
