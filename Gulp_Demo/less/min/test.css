@@ -1,0 +1,6 @@
+.test {
+  color: red;
+}
+.test .desc {
+  font-size: 50px;
+}

@@ -1,0 +1,1 @@
+var test=function(o){console.log(parames)};
