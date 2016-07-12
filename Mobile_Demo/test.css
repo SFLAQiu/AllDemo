@@ -1,0 +1,30 @@
+body {
+    background: #f1eff2;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 640px;
+    font-size: 15px;
+    font-family: "Hiragino Sans GB W3", "Droid Sans Fallback", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: #666;
+}
+div,ul{padding: 0px;}
+.nav{
+    margin: 0px;
+    width: 1000%;
+    height: 50px;
+    border: 2px solid bisque;
+    overflow: hidden;
+    position: fixed;
+    top:0px;
+    left: 0px;
+}
+.nav li{
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid red;
+    float: left;
+    list-style:  none;
+    z-index: 2px;
+    height: 48px;
+}
+
