@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>zepto demo</title>
+    <style type="text/css">
+        .box{ 
+             width:300px;
+             height: 300px;
+             border: 1px solid red;
+             background-color: red;
+        }
+        .delete { display: none; }
+     </style>
+</head>
+<body>
+    <div id="box" class="box">
+
+
+    </div>
+
+    <ul id=items>
+    <li>List item 1 <span class=delete>DELETE</span></li>
+    <li>List item 2 <span class=delete>DELETE</span></li>
+    </ul>
+    <script src="js/zepto.js"></script>
+    <script>
+        $('#box').tap(function(){
+            alert(1);
+        })
+    </script>
+</body>
+</html>
