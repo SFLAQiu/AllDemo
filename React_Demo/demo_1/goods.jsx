@@ -10,7 +10,7 @@ var GoodsItems = React.createClass({
                 <li className="list-pro">
                     <a href="javascript:;" class="link-box">
                         <span className="left_box">
-                            <img class="ui-imglazyload" src={proInfo.ImageUrl+'!240.240'} alt="" className="ui-imglazyload"/>
+                            <img src={proInfo.ImageUrl+'!240.240'} alt="" className="ui-imglazyload"/>
                             <label htmlFor="">
                                 <em>今日</em>
                             </label>
@@ -41,7 +41,7 @@ var GoodsItems = React.createClass({
     componentDidMount: function () {},
     render: function () {
         return (
-            <ul id="good_main" class="wf_col">
+            <ul id="good_main" className="wf_col">
                 {this.goodsHtml(this.props.datas) }
             </ul>
         );
@@ -67,9 +67,9 @@ var Goods = React.createClass({
         });
     },
     handleScroll: function () {
-        var sTop = $(document).scrollTop();
-        var loadHeight = $(window).height() + sTop + 100;
-        var height = $("#good_main").height();
+        var sTop = window.scrollY;
+        var loadHeight = window.innerHeight + sTop + 100;
+        var height = document.getElementById("good_main").offsetHeight;
         if (loadHeight > height) {
             if (this.state.loading) return;
             this.setState({ pageIdex: this.state.pageIdex + 1,loading: true });

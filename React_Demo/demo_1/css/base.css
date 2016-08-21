@@ -1,0 +1,164 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, menu, time, mark, audio, video, button, input { margin: 0; padding: 0; border: 0; outline: 0; vertical-align: baseline; background: transparent;-webkit-appearance: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+article, aside, figure, footer, header, hgroup, nav, section { display: block; -webkit-tap-highlight-color: rgba(0, 0, 0, 0) }
+input { -webkit-tap-highlight-color: rgba(0, 0, 0, 0) }
+body { font-size: 10px; font-family: Arial, "Helvetica","Hiragino Sans GB W3", "Droid Sans Fallback", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; color: #666; margin: 0; padding: 0 }
+/*body { font-size: 10px; font-family: 'helvetica neue',tahoma,'hiragino sans gb',stheiti,'wenquanyi micro hei',\5FAE\8F6F\96C5\9ED1,\5B8B\4F53,sans-serif; color: #666; margin: 0; padding: 0 }*/
+blockquote, q { quotes: none }
+blockquote:before, blockquote:after, q:before, q:after { content: '' }
+a { margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; color: #555; text-decoration: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-touch-callout: none; }
+a:hover { color: #333 }
+a:focus, input:focus { outline: 0 }
+input:focus { -webkit-user-modify: read-write-plaintext-only }
+ins { background-color: #ff9; color: #000; text-decoration: none }
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold }
+del { text-decoration: line-through }
+abbr[title], dfn[title] { border-bottom: 1px dotted #000; cursor: help }
+table { border-collapse: collapse; border-spacing: 0 }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0 }
+input, select { vertical-align: middle }
+input[type="text"], input[type="password"] { -webkit-appearance: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0) }
+address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal }
+ol, ul, li { list-style: none }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; margin: 0; padding: 0 }
+abbr, acronym { border: 0 }
+img { border: 0; max-width: 100% }
+.f-fz-12 { font-size: 12px }
+.f-fz-13 { font-size: 13px }
+.f-fz-14 { font-size: 14px }
+.f-fz-16 { font-size: 16px }
+.f-fz-20 { font-size: 20px }
+.f-fb { font-weight: bold }
+.f-fn { font-weight: normal }
+.f-t2 { text-indent: 2em }
+.f-lh-150 { line-height: 150% }
+.f-lh-180 { line-height: 180% }
+.f-lh-200 { line-height: 200% }
+.f-unl { text-decoration: underline }
+.f-no-unl { text-decoration: none }
+.f-tl { text-align: left }
+.f-tr { text-align: right }
+.f-tc { text-align: center }
+.f-bc { margin: 0 auto }
+.f-fl { float: left; display: inline }
+.f-fr { float: right; display: inline }
+.f-clear { clear: both }
+.f-clear-left { clear: left }
+.f-clear-right { clear: right }
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden }
+.clearfix { display: inline-block }
+
+/*\*/
+* html .clearfix { height: 1% }
+.clearfix { display: block }
+
+/**/
+.f-vm { vertical-align: middle }
+.f-pr { position: relative }
+.f-pa { position: absolute }
+.f-zoom { zoom: 1 }
+.f-hidden { visibility: hidden }
+.f-none { display: none }
+.f-block { display: block }
+.f-inline { display: inline }
+.f-w { width: 100% }
+.f-h { height: 100% }
+.f-mt-8 { margin-top: 8px }
+.f-mb-8 { margin-bottom: 8px }
+.f-ml-8 { margin-left: 8px }
+.f-mr-8 { margin-right: 8px }
+.f-m-8 { margin: 8px }
+.f-pt-8 { padding-top: 8px }
+.f-pb-8 { padding-bottom: 8px }
+.f-pl-8 { padding-left: 8px }
+.f-pr-8 { padding-right: 8px }
+.f-p-8 { padding: 8px }
+.f-mt-10 { margin-top: 10px }
+.f-mb-10 { margin-bottom: 10px }
+.f-ml-10 { margin-left: 10px }
+.f-mr-10 { margin-right: 10px }
+.f-m-10 { margin: 10px }
+.f-pt-10 { padding-top: 10px }
+.f-pb-10 { padding-bottom: 10px }
+.f-pl-10 { padding-left: 10px }
+.f-pr-10 { padding-right: 10px }
+.f-p-10 { padding: 10px }
+.container { margin: 15px 10px; word-wrap: break-word; word-break: break-all; -webkit-font-smoothing: antialiased }
+.u-tab { margin: 15px 10px }
+.u-tab div { float: left; width: 50%; vertical-align: top }
+.u-tab span { display: block; font: 14px/28px SimHei; text-align: center; border: 1px solid #7f76ff; color: #7f76ff; background: #fff }
+.u-tab span.cur { font-family: Microsoft YaHei; color: #fff; background: #7f76ff }
+.u-tab div:first-child, .u-tab div:first-child span { border-radius: 5px 0 0 5px; overflow: hidden }
+.u-tab div:last-child, .u-tab div:last-child span { border-radius: 0 5px 5px 0; overflow: hidden }
+.border-b, .border-t { border-bottom: 0; background-image: url("data:image/svg+xml;utf8,<svgxmlns=!string!width=!string!height=!string!><rectfill=!string!x=!string!y=!string!width=!string!height=!string!/></svg>"); background-repeat: no-repeat }
+.border-tb { background-image: url("data:image/svg+xml;utf8,<svgxmlns=!string!width=!string!height=!string!><rectx=!string!y=!string!width=!string!height=!string!style=!string!/></svg>"); background-repeat: no-repeat }
+.border-b { background-image: url("data:image/svg+xml;utf8,<svgxmlns=!string!width=!string!height=!string!><rectfill=!string!x=!string!y=!string!width=!string!height=!string!/></svg>"); background-position: 0 100% }
+.border-t { background-position: 100% 0 }
+.border-r { background-image: url("data:image/svg+xml;utf8,<svgxmlns=!string!width=!string!height=!string!><rectfill=!string!x=!string!y=!string!width=!string!height=!string!/></svg>"); background-repeat: no-repeat; background-position: 100% 100% }
+.border-tb-a23 { border-top: #ddd solid 1px; border-bottom: #ddd solid 1px }
+.border-b-a23 { border-bottom: #ddd solid 1px }
+.border-t-a23 { border-top: #ddd solid 1px }
+.border-r-a23 { border-right: #ddd solid 1px }
+/*#wrapper { position: absolute; z-index: 1; top: 0; bottom: 0; left: -9999px; width: 100%; overflow: auto }*/
+/*#scroller { position: absolute; z-index: 1; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 100%; padding: 0 }*/
+#pullDown .pullDownIcon, #pullUp .pullUpIcon { display: none; -webkit-transition-property: -webkit-transform; -webkit-transition-duration: 0 }
+#pullDown.loading .pullDownIcon, #pullUp.loading .pullUpIcon { display: inline-block; background-position: 0 100%; -webkit-transform: rotate(0deg) translateZ(0); -webkit-transition-duration: 0ms; -webkit-animation-name: loading; -webkit-animation-duration: 2s; -webkit-animation-iteration-count: infinite; -webkit-animation-timing-function: linear }
+@-webkit-keyframes loading {
+    from { -webkit-transform: rotate(0deg) translateZ(0) }
+    to { -webkit-transform: rotate(360deg) translateZ(0) }
+}
+#pullDown, #pullUp { display: none; padding: 15px 0; text-align: center }
+.pullDownIcon, .pullUpIcon, .pullDownLabel, .pullUpLabel, .loading i, .loading p, .pull-loading i { display: inline-block; vertical-align: middle }
+.pullDownIcon, .pullUpIcon, .loading i { width: 24px; height: 24px; margin-right: 10px }
+.pullDownLabel, .pullUpLabel, .loading p span { text-align: left; font-size: 14px; color: #666; line-height: 18px }
+.loading, .pull-loading { text-align: center }
+.loading i, .pull-loading i { background: url(//image.fanhuan.com/mfanhuan/images/loading.gif) no-repeat; background-size: 24px 24px }
+.loading p span, .pull-loading span { display: block; font-size: 11px; color: #999 }
+.pull-loading i { width: 67px; height: 58px; background: url("//image.fanhuan.com/mfanhuan/images/pull_loading1.png?v=20150803") no-repeat; background-size: cover; -webkit-animation: pullrun 250ms infinite; -webkit-animation-timing-function: step-start }
+@-webkit-keyframes pullrun {
+    50% { background-position: 0 -65px }
+}
+#pullDown.pull-loading { padding: 0 67px 0 0 }
+.pull-loading p { margin-top: 12px; text-align: center }
+#pullEnd { display: none; margin: 20px auto 30px auto; width: 228px; height: 60px; background: url(//image.fanhuan.com/mfanhuan/images/pull_end.png?v=20150410) center no-repeat; background-size: 228px 60px }
+.swiper-container { margin: 0 auto; position: relative; overflow: hidden; -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -ms-backface-visibility: hidden; -o-backface-visibility: hidden; backface-visibility: hidden; z-index: 1 }
+.swiper-wrapper { position: relative; width: 100%; -webkit-transition-property: -webkit-transform, left, top; -webkit-transition-duration: 0s; -webkit-transform: translate3d(0px, 0, 0); -webkit-transition-timing-function: ease; -moz-transition-property: -moz-transform, left, top; -moz-transition-duration: 0s; -moz-transform: translate3d(0px, 0, 0); -moz-transition-timing-function: ease; -o-transition-property: -o-transform, left, top; -o-transition-duration: 0s; -o-transform: translate3d(0px, 0, 0); -o-transition-timing-function: ease; -o-transform: translate(0px, 0px); -ms-transition-property: -ms-transform, left, top; -ms-transition-duration: 0s; -ms-transform: translate3d(0px, 0, 0); -ms-transition-timing-function: ease; transition-property: transform, left, top; transition-duration: 0s; transform: translate3d(0px, 0, 0); transition-timing-function: ease; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box }
+.swiper-free-mode>.swiper-wrapper { -webkit-transition-timing-function: ease-out; -moz-transition-timing-function: ease-out; -ms-transition-timing-function: ease-out; -o-transition-timing-function: ease-out; transition-timing-function: ease-out; margin: 0 auto }
+.swiper-slide { float: left; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box }
+.u-loading2, .u-loading { position: absolute; left: 50%; top: 50%; background: url(//image.fanhuan.com/mfanhuan/images/loading.gif) no-repeat center center; border: 0 }
+.u-loading { width: 48px; height: 48px; margin: -24px 0 0 -24px; z-index: 999999 }
+.u-loading2 { width: 24px; height: 24px; background-size: 24px 24px; margin: -12px 0 0 -12px; z-index: 999999 }
+.u-border { background-image: linear-gradient(180deg, #ddd, #ddd 50%, transparent 50%), linear-gradient(270deg, #ddd, #ddd 50%, transparent 50%), linear-gradient(0deg, #ddd, #ddd 50%, transparent 50%), linear-gradient(90deg, #ddd, #ddd 50%, transparent 50%); background-size: 100% 1px, 1px 100%; background-repeat: no-repeat; background-position: top, right, bottom, left }
+.u-msg { display: block; padding: 20px 0; text-align: center; color: #ccc; font-size: 14px }
+.u-msg-null { text-align: center; margin: 40px auto 0; font-size: 15px; color: #999; font-family: 'Microsoft YaHei' }
+.u-msg-null i { display: block; margin: 0 auto 15px auto; height: 100px; width: 77px; background: url(//image.fanhuan.com/mfanhuan/images/ico_null.png) no-repeat; background-size: 77px 100px }
+.u-layer { position: fixed; z-index: 500; left: 0; top: 50%; line-height: 45px; color: #fff; font: 15px/45px "Microsoft Yahei"; border-radius: 5px; background: rgba(0, 0, 0, 0.75); text-align: center }
+.u-layer i { display: block; margin: 0 auto }
+.u-layer p { line-height: 45px; padding: 0 15px; }
+.u-layer .i-layer-ok { width: 45px; height: 40px; background: url(//image.fanhuan.com/mfanhuan/images/i-layer-ok.png) no-repeat; background-size: 45px 40px }
+.big-pic { position: absolute; width: 200%; height: 100%; z-index: 500; left: 0; top: 0; background: #000; cursor: move; overflow: visible }
+.big-pic #innerBox { position: relative }
+.big-pic #innerBox img { position: absolute; left: 25%; top: 50%; width: 50% }
+/*#version-shadow { position: fixed; background: rgba(0, 0, 0, 0.4); left: 0; top: 0; width: 100%; height: 100%; z-index: 998 }
+#version-tip { position: fixed; top: 50%; left: 50%; width: 270px; border-radius: 10px; background: #fff; z-index: 999; margin-left: -135px; margin-top: -133px; color: #000; overflow: hidden }
+#version-tip .tip-box { padding: 16px 20px 0 }
+#version-tip h2 { font-weight: 700; font-size: 18px; font-family: Arial; text-align: center }
+#version-tip h2 span { font-size: 14px; margin-left: 1px }
+#version-tip ul { margin: 15px 0 }
+#version-tip ul li { line-height: 18px; font-size: 14px; margin-bottom: 7px }
+#version-tip ul li span { float: left }
+#version-tip ul li span:first-child { display: inline-block; width: 10px; position: relative; top: -2px }
+#version-tip ul li span:last-child { display: inline-block; width: 220px }
+#version-tip p { width: 100%; border-top: 1px solid #e2e2e2; height: 51px }
+#version-tip a { display: inline-block; width: 100%; height: 51px; line-height: 50px; text-align: center; float: left; color: #007aff; font-size: 18px; box-sizing: border-box }
+#version-tip a#update_later { border-right: 1px solid #e2e2e2 }*/
+.bg-sprite { background: url(//image.fanhuan.com/mfanhuan/images/sprite.png) no-repeat; background-size: 38px 75px }
+.u-gotop { display: none; position: fixed; z-index: 1; width: 38px; height: 39px; background-position: 0 -22px; right: 5px; bottom: 15px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-transform: translate3d(0, 0, 0) }
+
+.version-close{position:absolute;width:28px;height:28px;background:url(//cdn.upin.com/mfanhuan/common/images/icon_close.png) no-repeat;background-size:28px auto;z-index:999;right:-20px;top:-50px}
+.version-shadow {position:fixed;background:rgba(0, 0, 0, 0.5);left:0;top:0; width:100%;height:100%;z-index: 9998}
+.version-tip{position: fixed;top:50%;left:50%;width:265px;background: #fff;z-index:9999;color:#666;margin-left:-132px;margin-top:-131px;border-bottom-left-radius: 6px;border-bottom-right-radius: 6px;}
+.version-tip img{display:block;position:relative;top:-12px;}
+.version-tip ul{line-height:25px;font-size:15px;margin:12px 0 25px 22px;}
+.version-tip p{margin:0px 20px 30px}
+.version-tip a{display:block;line-height:41px;text-align:center;font-size:17px;color:#fff;background:#ff5555;border-radius:30px}
+
